@@ -2,7 +2,9 @@
 # Script sencillo para listar usuarios
 
 fecha=$(date +%Y-%m-%d_%H-%M-%S)
-archivo="usuarios_$fecha.txt"
+OU=results
+mkdir -p "$OUT"
+archivo="$OUT/usuarios_$fecha.txt"
 
 # Guardar lista de usuarios del sistema
 cut -d: -f1 /etc/passwd > "$archivo"

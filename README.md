@@ -16,3 +16,8 @@ En la terminal:
 
 ```bash
 ./backup_users.sh
+
+## Resultados
+
+Los backups generados por el script se almacenan en la carpeta `results/`.
+Ejemplo de archivo generado: `results/usuarios_2025-09-26_15-50-00.txt`.
